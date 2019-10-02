@@ -1,9 +1,6 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<ShortName>{{ site.title }}</ShortName>
-	<Description>{% if site.google.cse_id %}Search{% else %}Use Google to search{% endif %} {{ site.title }}</Description>
-	<Url type="application/rss+xml" template="{% if site.google.cse_id %}{{ '/search/?' | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}{% else %}{{ '&' | prepend: site.baseurl | prepend: site.url | prepend: 'https://www.google.com/search?as_sitesearch=' }}{% endif %}q={searchTerms}"/>
+	<ShortName>Your awesome title</ShortName>
+	<Description>Use Google to search Your awesome title</Description>
+	<Url type="application/rss+xml" template="https://www.google.com/search?as_sitesearch=http://0.0.0.0:4000/material-jekyll&q={searchTerms}"/>
 </OpenSearchDescription>
