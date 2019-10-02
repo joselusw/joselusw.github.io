@@ -1,1 +1,1 @@
-Sitemap: http://0.0.0.0:4000/material-jekyll/sitemap.xml
+Sitemap: https://joselusw.github.io/sitemap.xml
