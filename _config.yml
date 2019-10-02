@@ -22,15 +22,15 @@
 author:
     # Site's author name
     # Default: not set (author name is not displayed)
-    name: JoseluSW
+    name: "JoseluSW"
 
     # Site's author email
     # Default: not set (author email is not displayed)
-    email: your-email@yourdomain.com
+    email: "your-email@yourdomain.com"
 
     # Site's author website, profile
     # Default: not set (author site is not displayed)
-    site: http://yourdomain.com
+    site: "https://joselusw.github.io"
 
 ############
 # Building #
@@ -196,7 +196,7 @@ plugins:
 # Site URL
 # The base protocol and hostname for the website
 # Default: not set (this variable is only necessary for external systems)
- url: "https://joselusw.github.io"
+url: "https://joselusw.github.io"
 
 # Enforce the use of HTTPS on production domain
 # The hostname (does not include protocol, just the domain) for which the use of
@@ -221,7 +221,7 @@ baseurl: "/material-jekyll"
 #################
 
 # Site title
-title: JoseluSW webpage
+title: Your awesome title
 
 # Site description
 description: > # this means to ignore newlines until the text ends
