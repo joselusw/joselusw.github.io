@@ -338,3 +338,7 @@ blockquote.pull-right .small:after {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
+
+.bg-primary {
+    background-color:#000000!important
+   }
